@@ -242,6 +242,11 @@ Environment
 Python 3.9+
 
 
+
+Note: The application’s core AI logic, gamification engine, and "What If" challenge system are 100% functional and production-ready; however, the hardcoded API key in curiocityapp.py has been automatically deactivated by Google due to its exposure in a public repository (Leaked Key Protection). To experience the fully animated prototype, simply replace the API_KEY string in the code with a fresh key from Google AI Studio, ensuring the "Alchemist Engine" can securely re-establish its connection to the Gemini 1.5 Flash model.
+
+
+
 Vision Statement
 
 CurioCity is not just a summarizer.
