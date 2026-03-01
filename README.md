@@ -241,14 +241,7 @@ Environment
 
 Python 3.9+
 
-7. Installation & Deployment
-Clone Repository
-git clone https://github.com/your-username/curiocity.git
-cd curiocity
-Install Dependencies
-pip install -r requirements.txt
-Run Application
-streamlit run curiocityapp.py
+
 Vision Statement
 
 CurioCity is not just a summarizer.
