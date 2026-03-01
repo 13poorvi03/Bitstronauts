@@ -6,7 +6,7 @@ CurioCity: The AI Knowledge Alchemist
 
 CurioCity is an AI-powered educational ecosystem that transforms passive content consumption into active, gamified innovation.
 
-Built by Team Bitstronauts, it leverages Google Gemini 1.5 Flash to solve two critical modern education problems:
+Built by Team Bitstronauts, it leverages Google Gemini 1.5 Flash to solve two critical modern education problems
 
 Information Overload
 
