@@ -8,25 +8,32 @@ CurioCity is an AI-powered educational ecosystem that transforms passive content
 
 Built by Team Bitstronauts, it leverages Google Gemini 1.5 Flash to solve two critical modern education problems
 
-Information Overload
+1.Information Overload
 
-Passive Learning
+2.Passive Learning
 
 CurioCity acts as a Cognitive Filter, converting YouTube lectures and dense PDFs into structured “Wisdom Scrolls.”
 
 Table of Contents
 
-Executive Summary
+1.Executive Summary
 
-System Architecture
+2.System Architecture
 
-Module Breakdown
+3.Module Breakdown
+
+
+
+
+
 
 6 Pillars of Innovation
 
 Correctness & Verification
 
 Technical Stack
+
+
 
 Installation & Deployment
 
@@ -46,6 +53,9 @@ Encouraging conceptual invention over rote memorization
 
 Goal: Shift dopamine reward from content consumption to conceptual mastery.
 
+
+
+
 2. System Architecture
 
 CurioCity follows a Decoupled Tiered Architecture ensuring:
@@ -61,30 +71,43 @@ Maintainability
 Architectural Layers
 Logic Layer (The Brain)
 
+
+
 Implemented in utils.py
 Handles AI processing and data transformation
 
+
 Orchestration Layer (The Interface)
+
 
 Implemented in curiocityapp.py
 Manages session state and user interactions
 
+
 Presentation Layer (The Identity)
+
 
 Implemented in styles.css
 Controls UI aesthetics and branding
+
+
+
 
 3. Detailed Module Analysis
 A. The Alchemist Core Engine (utils.py)
 Neural Bridge (setup_model)
 
+
 Implements Self-Healing Model Discovery
+
 
 Dynamically selects the most efficient Gemini model
 
 Includes failover mechanism for high uptime
 
 Switches to backup models if primary endpoint fails
+
+
 
 Media Ingestors
 YouTube Ingestor
@@ -95,13 +118,18 @@ Fetches localized transcripts
 
 Cleans unnecessary metadata
 
+
+
 PDF Ingestor
 
 Uses PyPDF2 PdfReader
 
+
 Extracts clean semantic text
 
 Removes formatting noise
+
+
 
 Cognitive Transmutation
 
@@ -109,9 +137,13 @@ Uses Zero-Shot Prompt Engineering
 
 Converts raw content into:
 
+
+
 Metaphors
 
 “Aha!” insights
+
+
 
 Mnemonics
 
@@ -124,6 +156,8 @@ Maintains learning history
 
 Supports re-render consistency
 
+
+
 The Sage Doubt Solver
 
 Sidebar-based contextual chat
@@ -132,6 +166,8 @@ Strictly locked to uploaded material
 
 Prevents AI hallucinations
 
+
+
 Asynchronous UI
 
 Uses Streamlit status indicators
@@ -139,6 +175,8 @@ Uses Streamlit status indicators
 Smooth AI generation feedback
 
 Reduced perceived latency
+
+
 
 C. Visual Identity (styles.css)
 Glassmorphism Design
@@ -157,7 +195,13 @@ Hover animations
 
 Responsive card transitions
 
+
+
+
 4. The 6 Pillars of Innovation
+
+
+
 Phase 1: Knowledge Ingestion (Completed)
 
 The Alchemist Engine
@@ -166,27 +210,41 @@ The Sage Solver
 
 Resource Radar (educational link filtering)
 
+
+
+
 Phase 2: Cognitive Engagement (In Progress)
 Focus Guard
 
 Gamified Deep Work Timer
 
+
 Monitors tab switching
+
 
 Reduces XP on distraction
 
+
 Fights short-form content addiction
+
 
 “What If?” Engine
 
+
 Generates hypothetical scenarios
+
 
 Tests conceptual understanding
 
+
 Encourages logical reasoning
+
 
 Example:
 What if gravity were 2x stronger?
+
+
+
 
 Phase 3: Global Accessibility (Future)
 Translation Spell
@@ -197,27 +255,43 @@ Supports regional languages such as Hindi and Tamil
 
 Ensures language is not a barrier to conceptual mastery
 
+
+
+
+
 5. Correctness Properties (Verification)
+
+
 Property 1: Metaphor Integrity
 
 Every complex concept must include a relatable analogy.
+
+
 
 Property 2: Contextual Sandbox
 
 The Sage cannot answer outside provided material.
 
+
+
 Property 3: Failover Resilience
 
 Automatic model switching on failure.
+
+
 
 Property 4: Search Purity
 
 Filters non-educational domains.
 
+
+
 6. Technical Stack
 LLM
 
 Google Gemini 1.5 Flash
+
+
 
 Backend
 
@@ -277,6 +351,12 @@ http://localhost:8501
 
 API keys are not included in the repository for security reasons.
 You must add your own Gemini API key in the .env file before running the project.
+
+
+
+
+
+
 
 
 Vision Statement
