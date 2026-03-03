@@ -243,8 +243,40 @@ Python 3.9+
 
 
 
-Note: The application’s core AI logic, gamification engine, and "What If" challenge system are 100% functional and production-ready; however, the hardcoded API key in curiocityapp.py has been automatically deactivated by Google due to its exposure in a public repository (Leaked Key Protection). To experience the fully animated prototype, simply replace the API_KEY string in the code with a fresh key from Google AI Studio, ensuring the "Alchemist Engine" can securely re-establish its connection to the Gemini 1.5 Flash model.
+Note: 
 
+🔐 Running the Project Locally (API Key Setup Required)
+
+Since this project uses the Gemini API, you need to add your own API key to run it locally.
+
+🛠 Step-by-Step Setup
+1️⃣ Clone the Repository
+git clone <your-repo-link>
+cd <project-folder>
+2️⃣ Install Required Dependencies
+pip install -r requirements.txt
+3️⃣ Add Your Gemini API Key
+
+Create a new file in the project root folder named:
+
+.env
+
+Inside that file, add:
+
+GEMINI_API_KEY=your_api_key_here
+
+⚠️ Replace your_api_key_here with your actual Gemini API key.
+
+4️⃣ Run the Application
+streamlit run app.py
+
+The app will open automatically in your browser at:
+
+http://localhost:8501
+⚠️ Important Note
+
+API keys are not included in the repository for security reasons.
+You must add your own Gemini API key in the .env file before running the project.
 
 
 Vision Statement
